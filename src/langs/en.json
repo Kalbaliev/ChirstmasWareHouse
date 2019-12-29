@@ -1,0 +1,157 @@
+{
+
+    "language":{
+        "name":"EN",
+        "icon":"us"
+    },
+
+    "Header":{
+        "signOutTxt":"Sign out",
+        "addNewProductTxt": "Add new product",
+        "homeTxt":"Home",
+        "giftsTxt":"Gifts",
+        "aboutTxt":"About"
+    },
+
+    
+    "Auth":{
+        "signInTxt":"Sign in",
+        "signUpTxt":"Sign up",
+        "displayNameTxt":"Display Name",
+        "emailTxt":"E-mail",
+        "passwordTxt":"Password",
+        "rePasswordTxt":"Re-Password",
+        "loginTxt":"Login",
+        "registerTxt":"Register",
+        
+        "requiredDisplayNameTxt":"Display Name is required'",
+        "minLengthDisplayNameTxt":"Display Name must be more than 5 characters",
+        "maxLengthDisplayNameTxt":"Display Name must be less than 20 characters",
+        
+        "requiredEmailTxt":"E-mail is required",
+        "minLengthEmailTxt":"Name must be more than 5 characters",
+        "maxLengthEmailTxt":"Name must be less than 30 characters",
+        "emailValidateTxt":"Email is not valid",
+
+        "requiredPasswordTxt":"Password is required",
+        "minLengthPasswordTxt":"Password must be more than 5 characters",
+        "maxLengthPasswordTxt":"Passsword must be less than 16 characters",
+        "sameAsPasswordTxt":"Passwords are not same"
+
+
+
+    },
+    "Home":{
+
+         "welcomeTxt":"Welcome! to Our",
+        "allGiftsCountTxt":"All Gifts Count",
+        "allgiftsCountDescriptionTxt":"This count shows that all gifts in which sell by sellers Chirstmas WareHouse. You can explore and buy gifts from buttom button...",
+        "lookAtTxt":"Look at"
+    },
+
+    "About":{
+        "whoAreWeTxt":"Who are We ? ",
+        "whatAreServicesTxt":"What are our services ?"
+
+    },
+    "Categories":{
+
+        "items":[
+            {
+                "text":"Shoes",
+                "value":"Shoes"
+
+            },
+            {
+                "text":"Clothes",
+                "value":"Clothes"
+
+            },
+            {
+                "text":"Trees",
+                "value":"Trees"
+
+            },
+            {
+                "text":"Accessories",
+                "value":"Accessories"
+
+            },
+            {
+                "text":"Books",
+                "value":"Books"
+
+            },
+            {
+                "text":"Drinks",
+                "value":"Drinks"
+
+            }
+        
+        ],
+
+
+        "lists":[
+
+           {"name":"All","icon":"fa-th-list", "value":"all"},
+           {"name":"Shoes","icon":"fa-shoe-prints" ,"value":"Shoes"},
+           {"name":"Clothes","icon":"fa-tshirt" ,"value":"Clothes"},
+           {"name":"Drinks","icon":"fa-cocktail" ,"value":"Drinks"},
+           {"name":"Trees","icon":"fa-tree" ,"value":"Trees"},
+           {"name":"Accessories","icon":"fa-gem" ,"value":"Accessories"},
+           {"name":"Books","icon":"fa-book" ,"value":"Books"}
+           
+         
+   ]
+
+     
+    },
+    "Gifts":{
+
+        "giftsTxt":"Gifts",
+        "stockTxt":"Stock",
+        "moreTxt":"More",
+        "notProductMsgTxt":"There are not any products now here!",
+
+
+        "productNameTxt":"Product Name",
+        "productDescriptionTxt":"Description about product",
+        "productCategoryTxt":"Category",
+        "productCountTxt":"Count",
+        "productPriceTxt":"Price",
+        "addProductTxt":"Add Product",
+
+        "requiredProductCategoryTxt":"Category is required",
+
+        "requiredNameTxt":"Product Name is required",
+        "maxLengthNameTxt":"Product Name must be less than 30 characters",
+        "minLengthNameTxt":"Product Name must be more than 4 characters",
+
+        "requiredDescriptionTxt":"Description is required",
+        "maxLengthDescriptionTxt":"Description must be less than 1000 characters",
+        "minLengthDescriptionTxt":"Description must be more than 15 characters",
+
+        "requiredPriceAndCountTxt":"Price or Count is required",
+        "minPriceAndCountTxt":"Price or Count must be minimum 1",
+
+        "beforeRouteAlertTxt":"Are you sure to Exit?",
+
+        "buyNowTxt":"Buy Now",
+        "sellerTxt":"Seller"
+
+        
+    },
+    "Snackbar":{
+        "closeTxt":"Close",
+        "welcomeTxt":"Welcome our website!",
+        "loginErrorTxt":"Your e-mail and password are incorrect",
+        "registerErrorTxt":"Oh Pity, Registration is failed",
+
+
+        "addProductSuccessTxt":"Added New Product to Gifts, Success!",
+        "addProductErrorTxt":"Oh Pity, There was a problem about adding product",
+
+        "serverErrorTxt":"There is a problem in our SERVER , Xlease try to login again"
+    }
+
+}

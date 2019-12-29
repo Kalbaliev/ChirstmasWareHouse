@@ -1,0 +1,164 @@
+{
+
+    "language":{
+        "name":"AZ",
+        "icon":"az"
+    },
+
+    "Header":{
+        "signOutTxt":"Çıxış",
+        "addNewProductTxt": "Yenİ Məhsul Əlavə et",
+        "homeTxt":"Ana Səhifə",
+        "giftsTxt":"Hədiyyələr",
+        "aboutTxt":"Haqqında"
+    },
+
+    "Auth":{
+        "signInTxt":"GİRİŞ",
+        "signUpTxt":"QEYDİYYAT",
+        "displayNameTxt":"İstifadəçi adı",
+        "emailTxt":"E-poçt",
+        "passwordTxt":"Şifrə",
+        "rePasswordTxt":"Təkrar Şifrə",
+        "loginTxt":"DAXİL OL",
+        "registerTxt":"Qeyd ol",
+        
+        "requiredDisplayNameTxt":"İstifadəçi adı tələb olunur",
+        "minLengthDisplayNameTxt":"İstifadəçi adı 5 simvoldan kiçik ola bilməz",
+        "maxLengthDisplayNameTxt":"İstifadəçi adı 20 simvoldan böyük ola bilməz",
+        
+        "requiredEmailTxt":"E-poçt ünvanı tələb olunur",
+        "minLengthEmailTxt":"E-poçt ünvanı 5 simvoldan kiçik ola bilməz",
+        "maxLengthEmailTxt":"E-poçt ünvanı 30 simvoldan böyük ola bilməz",
+        "validateEmailTxt":"E-poçt ünvanı keçərli deyil",
+
+        "requiredPasswordTxt":"Şifrə tələb olunur",
+        "minLengthPasswordTxt":"Şifrə 5 simvoldan kiçik ola bilməz",
+        "maxLengthPasswordTxt":"Şifrə 16 simvoldan böyük ola bilməz",
+        "sameAsPasswordTxt":"Şifrələr üst-üstə düşmür"
+
+
+
+    },
+
+    "Home":{
+        "welcomeTxt":"Xoşgəlmisiniz! Bizim",
+        "welcomeSuffixTxt":"a",
+        "allGiftsCountTxt":"Bütün Hədiyyələrin sayı",
+        "allgiftsCountDescriptionTxt":"Bu say Chirstmas WareHouse-da satıcılar tərəfindən satılan bütün hədiyyələri göstərir",
+        "lookAtTxt":"Bax"
+    },
+    "About":{
+        "whoAreWeTxt":"Biz kimik ? ",
+        "whatAreServicesTxt":"Bizim xidmələrimiz nələrdir ?"
+
+    },
+
+    "Categories":{
+
+            "items":[
+                {
+                    "text":"Ayaqqabılar",
+                    "value":"Shoes",
+                    "icon":"fa"
+
+                },
+                {
+                    "text":"Paltarlar",
+                    "value":"Clothes",
+                    "icon":"fa"
+
+                },
+                {
+                    "text":"Ağaclar",
+                    "value":"Trees",
+                    "icon":"fa"
+
+                },
+                {
+                    "text":"Aksesuarlar",
+                    "value":"Accessories",
+                    "icon":"fa"
+
+                },
+                {
+                    "text":"Kitablar",
+                    "value":"Books",
+                    "icon":"fa"
+
+                },
+                {
+                    "text":"İçkilər",
+                    "value":"Drinks",
+                    "icon":"fa"
+
+                }
+            
+            ],
+
+            "lists":[
+
+                     {"name":"Hamısı","icon":"fa-th-list" ,"value":"all"},
+                    {"name":"Ayaqqabılar","icon":"fa-shoe-prints" ,"value":"Shoes"},
+                    {"name":"Paltarlar","icon":"fa-tshirt" ,"value":"Clothes"},
+                    {"name":"İçkilər","icon":"fa-cocktail" ,"value":"Drinks"},
+                    {"name":"Ağaclar","icon":"fa-tree" ,"value":"Trees"},
+                    {"name":"Aksesuarlar","icon":"fa-gem" ,"value":"Accessories"},
+                    {"name":"Kitablar","icon":"fa-book" ,"value":"Books"}
+            ]
+       
+
+ 
+    },
+
+    "Gifts":{
+
+            "giftsTxt":"Hədiyyələr",
+            "stockTxt":"İnventar",
+            "moreTxt":"Ətraflı",
+            "notProductMsgTxt":"Hal-hazırda heç bir məhsul yoxdur!",
+
+
+
+        "productNameTxt":"Məhsul adı",
+        "productDescriptionTxt":"Məhsul barəsində açıqlama",
+        "productCategoryTxt":"Kateqoriya",
+        "productCountTxt":"Sayı",
+        "productPriceTxt":"Qiyməti",
+        "addProductTxt":"Məhsul Əlavə et",
+
+        "requiredProductCategoryTxt":"Kateqoriya tələb olunur",
+
+        "requiredNameTxt":"Məhsul adı tələb olunur",
+        "maxLengthNameTxt":"Məhsul adı 30 simvoldan böyük ola bilməz",
+        "minLengthNameTxt":"Məhsul adı 4 simvoldan kiçik ola bilməz",
+
+        "requiredDescriptionTxt":"Açıqlama tələb olunur",
+        "maxLengthDescriptionTxt":"Açıqlama 1000 simvoldan böyük ola bilməz",
+        "minLengthDescriptionTxt":"Açıqlama 15 simvoldan kiçik ola bilməz",
+
+        "requiredPriceAndCountTxt":"Qiymət və ya Sayı tələb olunur",
+        "minPriceAndCountTxt":"Qiymət və Say minimum 1 olmalıdır",
+
+        "beforeRouteAlertTxt":"Çıxmaq istədiyinizə əminsinizmi ?",
+
+        "buyNowTxt":"İndi al",
+        "sellerTxt":"Satıcı"
+
+
+        
+        
+    },
+    "Snackbar":{
+        "closeTxt":"Bağla",
+        "welcomeTxt":"Xoşgəlmisiniz bizim vebsayta!",
+        "loginErrorTxt":"Sizin e-poçt ünvanınız və ya şifrəniz yalnışdır!",
+        "registerErrorTxt":"Təəssüf, Qeydiyyat uğursuz oldu!",
+
+        
+        "addProductSuccessTxt":"Yeni məhsul hədiyyələrə əladə edildi, Təbriklər!",
+        "addProductErrorTxt":"Təəssüf, Məhsul əlavə edilməsi ilə bağlı problem həyata keçdi",
+
+        "serverErrorTxt":"SERVER-imizdə problem baş verdi , xahiş edirik yenidən giriş etməyə cəhd edin "
+    }
+}
