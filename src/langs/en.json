@@ -33,7 +33,7 @@
         "requiredEmailTxt":"E-mail is required",
         "minLengthEmailTxt":"Name must be more than 5 characters",
         "maxLengthEmailTxt":"Name must be less than 30 characters",
-        "emailValidateTxt":"Email is not valid",
+        "validateEmailTxt":"Email is not valid",
 
         "requiredPasswordTxt":"Password is required",
         "minLengthPasswordTxt":"Password must be more than 5 characters",

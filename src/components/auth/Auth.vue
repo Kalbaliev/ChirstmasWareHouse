@@ -103,7 +103,19 @@
                                         >
 
                                         </v-text-field>
+
+
+                                       
+
+
+
+
                                         <v-text-field
+
+                                            :append-icon="showPass ? 'mdi-eye' : 'mdi-eye-off'"
+                                            :type="showPass ? 'text' : 'password'"
+                                            @click:append="showPass = !showPass"
+
 
                                           @input="$v.user.email.$touch()"
                                             v-model.trim="user.password"
@@ -116,6 +128,10 @@
 
                                             <v-text-field 
                                              v-if="!isUser"
+
+                                            :append-icon="showPass ? 'mdi-eye' : 'mdi-eye-off'"
+                                            :type="showPass ? 'text' : 'password'"
+                                            @click:append="showPass = !showPass"
 
                                             @input="$v.user.repassword.$touch()"
                                             v-model.trim="user.repassword"
@@ -184,7 +200,7 @@ export default {
         return{
 
             isUser:true,
-
+            showPass:false,
             user:{
                 displayName:"",
                 email:"",
