@@ -27,7 +27,7 @@
                                                 height="150"
                                                 width="150"
                                                     @click="changeImage(product.category)"
-                                                    :src="'./../src/assets/images/resized/'+product.category+'-sm.jpg'"
+                                                    :src="'./src/assets/images/resized/'+product.category+'-sm.jpg'"
                                                     lazy-src
                                             >
                                                 
@@ -60,7 +60,7 @@
                                     height="150"
                                     width="170"
                                         @click="changeImage(product.category+'2')"
-                                        :src="'./../src/assets/images/resized/'+product.category+'-sm2.jpg'"
+                                        :src="'./src/assets/images/resized/'+product.category+'-sm2.jpg'"
                                         lazy-src
                                 >
                                     
@@ -90,7 +90,7 @@
                                     height="150"
                                     width="150"
                                               @click="changeImage(product.category+'3')"
-                                        :src="'./../src/assets/images/resized/'+product.category+'-sm3.jpg'"
+                                        :src="'./src/assets/images/resized/'+product.category+'-sm3.jpg'"
                                         lazy-src
                                 >
                                     
@@ -121,7 +121,7 @@
                             
                             height="500"
                             width="500"
-                                :src="selectedImage!==null ?'./../src/assets/images/medium/'+selectedImage+'.jpg' : './../src/assets/images/medium/'+product.category+'.jpg'"
+                                :src="selectedImage!==null ?'./src/assets/images/medium/'+selectedImage+'.jpg' : './src/assets/images/medium/'+product.category+'.jpg'"
                             >
                             
                             </v-img>

@@ -5,7 +5,7 @@
         <v-app-bar
           dark
           app
-          src="./../src/assets/images/banner.jpg"
+          src="./src/assets/images/banner.jpg"
         >
           <v-app-bar-nav-icon v-if="isAuthenticated" @click="drawer=!drawer"></v-app-bar-nav-icon>
     
@@ -18,7 +18,10 @@
             </v-toolbar-title>
     
           <v-spacer></v-spacer>
-
+     <v-btn  v-if="isAuthenticated"  color="transparent" class="success mx-5 " router :to="'/gifts/addgift'">
+                        <span>{{$t('Header.addNewProductTxt')}}</span>
+                
+                    </v-btn>
                     <v-menu
                                
                              
@@ -41,22 +44,26 @@
                                     v-on="on"
                                 >
                               
-                                    <flag class="display-1" :iso="$t('language.icon')"> </flag>  
+                                    <v-img height="40" width="40" :src="'./src/assets/images/langs/'+$t('language.icon')+'.png'"></v-img>
+                              
                                     <span class="headline">&nbsp {{$t('language.name')}} </span>
                                 </v-btn>
                                 </template>
                             <v-list class="mt-5">
                                     <v-list-item
+
                                      @click="setLanguage('en')"
                                     >
-                                         <flag class="display-1" iso="us"> </flag>  
-                                         &nbsp English
+                                             <v-img   max-height="40" max-width="40" src="./src/assets/images/langs/en.png"></v-img>
+                                             
+                                               &nbsp {{$t('language.en')}}
+                                
                                     </v-list-item>
                                     <v-list-item
                                         @click="setLanguage('az')"
                                     >
-                                         <flag class="display-1" iso="az"> </flag>  
-                                         &nbsp Azerbaijani
+                                            <v-img max-height="40" max-width="40" src="./src/assets/images/langs/az.png"></v-img>
+                                         &nbsp {{$t('language.az')}}
                                     </v-list-item>
                             </v-list>
                     </v-menu>
@@ -88,10 +95,7 @@
                             </v-list>
                     </v-menu>
 
-                <v-btn  v-if="isAuthenticated"  color="transparent" class="success mx-5 " router :to="'/gifts/addgift'">
-                        <span>{{$t('Header.addNewProductTxt')}}</span>
-                
-                    </v-btn>
+           
                
                         
              
@@ -105,7 +109,7 @@
      v-if="isAuthenticated" 
      v-model="drawer" 
      app 
-     src="./../src/assets/images/banner-vertical.jpg"
+     src="./src/assets/images/banner-vertical.jpg"
  
      class="green darken-4 ">
       
@@ -113,7 +117,7 @@
 
                 <v-flex class="mt-5 px-5">
                    
-                        <v-img class="mx-4" height="150" width="150" src="./../../../src/assets/images/logo.png" > </v-img>
+                        <v-img class="mx-4" height="150" width="150" src="./src/assets/images/logo.png" > </v-img>
                     
                        
                     <p class="white--text subheading mt-4"> <span class="red--text text--lighten-1  font-weight-bold">Chirstmas</span> 

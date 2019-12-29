@@ -53,8 +53,9 @@ const routes=[
   ];
 
 export const router = new VueRouter({
+    base:process.env.BASE_URL,
     routes,
-    mode:"history"
+ 
   })
 
 

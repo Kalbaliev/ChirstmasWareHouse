@@ -22,7 +22,7 @@
                                     <v-row  justify="center" align="center">
                                         <v-layout  column align-center>
                                             <v-flex >
-                                                <v-img height="200" width="200"   src="./../../../src/assets/logo.png" >
+                                                <v-img height="200" width="200"   src="./src/assets/images/logo.png" >
 
                                                 </v-img>
                                             </v-flex>

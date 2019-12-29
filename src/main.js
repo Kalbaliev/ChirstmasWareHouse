@@ -8,11 +8,11 @@ import {router} from "./router"
 import {store} from "./store/store"
 import {i18n} from "./plugins/i18n"
 
-import FlagIcon from "vue-flag-icon"
+
 import { parseTwoDigitYear } from 'moment'
 
 Vue.use(Vuelidate)
-Vue.use(FlagIcon)
+
 
 Vue.filter("currency",(value)=>{
 

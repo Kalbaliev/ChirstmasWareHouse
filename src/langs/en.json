@@ -1,8 +1,10 @@
 {
 
     "language":{
+        "az":"Azerbaijani",
+        "en":"English",
         "name":"EN",
-        "icon":"us"
+        "icon":"en"
     },
 
     "Header":{

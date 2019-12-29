@@ -22,7 +22,7 @@
                                     v-on="on"
                                 >
                               
-                                    <flag class="display-1" :iso="$t('language.icon')"> </flag>  
+                                  <v-img height="40" width="40" :src="'./src/assets/images/langs/'+$t('language.icon')+'.png'"></v-img>
                                     <span class="headline">&nbsp {{$t('language.name')}} </span>
                                 </v-btn>
                                 </template>
@@ -30,14 +30,15 @@
                                     <v-list-item
                                      @click="setLanguage('en')"
                                     >
-                                         <flag class="display-1" iso="us"> </flag>  
-                                         &nbsp English
+                                           <v-img   max-height="40" max-width="40" src="./src/assets/images/langs/en.png"></v-img>
+                                             
+                                                    &nbsp {{$t('language.en')}}
                                     </v-list-item>
                                     <v-list-item
                                         @click="setLanguage('az')"
                                     >
-                                         <flag class="display-1" iso="az"> </flag>  
-                                         &nbsp Azerbaijani
+                                        <v-img max-height="40" max-width="40" src="./src/assets/images/langs/az.png"></v-img>
+                                         &nbsp {{$t('language.az')}}
                                     </v-list-item>
                             </v-list>
                     </v-menu>    
